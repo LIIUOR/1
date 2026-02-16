@@ -1,12 +1,22 @@
 ﻿// ConsoleApplication1.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
-
 #include <iostream>
+using namespace std;
 
-int main()
-{
-    std::cout << "Hello World!\n";
+int add(int a, int b) {
+    return a + b;
 }
+
+int subtract(int a, int b) {
+    return a - b;
+}
+
+int main() {
+    cout << "Ветка два";
+
+    return 0;
+}
+
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
 // Отладка программы: F5 или меню "Отладка" > "Запустить отладку"
